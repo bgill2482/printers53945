@@ -251,7 +251,7 @@
 
 *JCLOpenUI *InputSlot: PickOne
 *OrderDependency: 100 JCLSetup *InputSlot
-*DefaultInputSlot: Auto
+*DefaultInputSlot: 1Tray
 *InputSlot MultiTray/Bypass Tray: "@PJL SET TRAY=BYPASS<0A>"
 *InputSlot 1Tray/Tray 1: "@PJL SET TRAY=TRAY1<0A>"
 *InputSlot 2Tray/Tray 2: "@PJL SET TRAY=TRAY2<0A>"
@@ -289,7 +289,7 @@
 *OpenGroup: Paper/Paper
 *JCLOpenUI *MediaType/Paper Type: PickOne
 *OrderDependency: 100 JCLSetup *MediaType
-*DefaultMediaType: Auto
+*DefaultMediaType: Plain2
 *MediaType Auto/Plain/Recycled: "@PJL SET MEDIATYPE=PLAINORRECYCLED<0A>"
 *MediaType Plain1/Plain 1 (60 - 74 g/m2): "@PJL SET MEDIATYPE=PLAIN<0A>"
 *MediaType Plain2/Plain 2 (75 - 81 g/m2): "@PJL SET MEDIATYPE=PLAIN2<0A>"
